@@ -76,6 +76,6 @@ les cas d'utilisation contenus à l'intérieur.
 
 ## Exercices pratiques
 
-### [Plateforme de Gestion d'Événements pour Entreprises](..%2FExercices%2F%C3%89nonc%C3%A9%2F02a%20-%20Cas%20d%27Utilisation%20-%20Exercice.md)
+### [Plateforme de Gestion d'Événements pour Entreprises](../Exercices/E%CC%81nonce%CC%81/02%20-%20Cas%20d%27Utilisation%20-%20Exercice%201.md)
 
-### [Système de réservation de bibliothèque en ligne](..%2FExercices%2F%C3%89nonc%C3%A9%2F02b%20-%20Cas%20d%27utilisation%20-%20Exercice.md)
+### [Système de réservation de bibliothèque en ligne](../Exercices/E%CC%81nonce%CC%81/02%20-%20Cas%20d%27utilisation%20-%20Exercice%202.md)

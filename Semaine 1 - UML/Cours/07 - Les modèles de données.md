@@ -439,6 +439,6 @@ navigation et des requêtes rapides sur des relations complexes.
 
 ## Exercices pratiques
 
-### [Système de Gestion Universitaire](../Exercices/%C3%89nonc%C3%A9/07a%20-%20Mod%C3%A8le%20Entit%C3%A9-Relation%20-%20Exercice.md)
+### [Plateforme de Gestion d'Événements](../Exercices/E%CC%81nonce%CC%81/07%20-%20Mod%C3%A8le%20Entit%C3%A9-Relation%20-%20Exercice%201.md)
 
-### [Plateforme de Gestion d'Événements](../Exercices/%C3%89nonc%C3%A9/07b%20-%20Mod%C3%A8le%20Entit%C3%A9-Relation%20-%20Exercice.md)
+### [Système de Gestion Universitaire](../Exercices/E%CC%81nonce%CC%81/07%20-%20Mod%C3%A8le%20Entit%C3%A9-Relation%20-%20Exercice%202.md)

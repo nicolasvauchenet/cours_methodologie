@@ -74,6 +74,6 @@ acteur ou sous-système impliqué dans le processus.
 
 ## Exercices pratiques
 
-### [Plateforme de Gestion d'Événements pour Entreprises](..%2FExercices%2F%C3%89nonc%C3%A9%2F03a%20-%20Diagramme%20d%27Activit%C3%A9%20-%20Exercice.md)
+### [Plateforme de Gestion d'Événements pour Entreprises](../Exercices/E%CC%81nonce%CC%81/03%20-%20Diagramme%20d%27Activit%C3%A9%20-%20Exercice%201.md)
 
-### [Processus de paiement d'un site de vente en ligne](..%2FExercices%2F%C3%89nonc%C3%A9%2F03b%20-%20Diagramme%20d%27Activit%C3%A9%20-%20Exercice.md)
+### [Processus de paiement d'un site de vente en ligne](../Exercices/E%CC%81nonce%CC%81/03%20-%20Diagramme%20d%27Activit%C3%A9%20-%20Exercice%202.md)

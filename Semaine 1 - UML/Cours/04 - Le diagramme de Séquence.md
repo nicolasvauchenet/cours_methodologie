@@ -75,6 +75,6 @@ Des commentaires peuvent être ajoutés au diagramme pour expliquer ou clarifier
 
 ## Exercices pratiques
 
-### [Distributeur Automatique de Billets (ATM)](..%2FExercices%2F%C3%89nonc%C3%A9%2F04a%20-%20Diagramme%20de%20S%C3%A9quence%20-%20Exercice.md)
+### [Plateforme de Gestion d'Événements pour Entreprises](../Exercices/E%CC%81nonce%CC%81/04%20-%20Diagramme%20de%20S%C3%A9quence%20-%20Exercice%201.md)
 
-### [Programmation d'une Conférence](..%2FExercices%2F%C3%89nonc%C3%A9%2F04b%20-%20Diagramme%20de%20S%C3%A9quence%20-%20Exercice.md)
+### [Distributeur Automatique de Billets (ATM)](../Exercices/E%CC%81nonce%CC%81/04%20-%20Diagramme%20de%20S%C3%A9quence%20-%20Exercice%202.md)

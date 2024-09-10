@@ -206,3 +206,7 @@ répondent à des événements en passant d'un état à un autre.
 - **Join :**
     - **Représentation :** Une ligne noire épaisse fusionnant plusieurs transitions parallèles en un seul état.
     - **Description :** Utilisée pour indiquer la convergence de plusieurs sous-flux parallèles en un seul flux.
+
+## Exercice pratique
+
+### [Transactions de Réservation de Livres](../Exercices/E%CC%81nonce%CC%81/06%20-%20Diagramme%20d%27Objets%20-%20Exercice.md)

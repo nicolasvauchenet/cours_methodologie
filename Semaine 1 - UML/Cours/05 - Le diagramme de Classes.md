@@ -475,6 +475,6 @@ Les symboles précédant les attributs et méthodes indiquent la visibilité :
 
 ## Exercices pratiques
 
-### [Système de réservation de bibliothèque en ligne](..%2FExercices%2F%C3%89nonc%C3%A9%2F05a%20-%20Diagramme%20de%20Classes%20-%20Exercice.md)
+### [Plateforme de Gestion d'Événements](../Exercices/E%CC%81nonce%CC%81/05%20-%20Diagramme%20de%20Classes%20-%20Exercice%201.md)
 
-### [Plateforme de Gestion d'Événements](..%2FExercices%2F%C3%89nonc%C3%A9%2F05b%20-%20Diagramme%20de%20Classes%20-%20Exercice.md)
+### [Système de réservation de bibliothèque en ligne](../Exercices/E%CC%81nonce%CC%81/05%20-%20Diagramme%20de%20Classes%20-%20Exercice%202.md)
