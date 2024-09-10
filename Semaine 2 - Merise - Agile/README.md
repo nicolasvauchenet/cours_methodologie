@@ -43,12 +43,12 @@ Discussion sur le choix des systèmes de gestion de base de données (SGBD) et l
 
 #### Optimisation, index, respect des contraintes d'intégrité et des règles de gestion
 
-Examen des techniques d'optimisation de bases de données, de création d'index et des mécanismes pour garantir l'
-intégrité des données.
+Examen des techniques d'optimisation de bases de données, de création d'index et des mécanismes pour garantir
+l'intégrité des données.
 
-#### Présentation et exercice
+#### Présentation
 
-Présentation du MPD et exercice pour implémenter un MPD sur un SGBD.
+Présentation du MPD.
 
 ### Étude de cas complète
 
