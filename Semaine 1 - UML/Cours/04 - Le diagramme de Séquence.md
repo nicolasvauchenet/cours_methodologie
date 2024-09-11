@@ -36,42 +36,72 @@ Lors du débogage ou de la création de tests, ces diagrammes permettent aux tes
 
 ## Symboles et Éléments
 
-![04-symbols.png](../images/04-symbols.png)  
-![04-messages.png](../images/04-messages.png)
+![04-symbols.png](../images/04-symbols.png)
+
+### Acteur :
+
+Représente une entité externe au système qui interagit avec celui-ci (utilisateur, autre système, etc.).  
+Symbolisé par une icône de bonhomme stylisé.
+
+### Objet :
+
+Un objet ou une instance qui participe à l'interaction.  
+Représenté par un rectangle contenant le nom de l'objet, généralement avec une ligne de vie qui descend verticalement à
+partir de lui.
 
 ### Ligne de vie :
 
-Représentée par une ligne verticale interrompue par un rectangle au sommet, chaque ligne de vie représente un acteur ou
-un objet qui interagit dans la séquence. Le rectangle indique le nom de l'acteur ou de l'objet.
+Une ligne verticale qui part de l'acteur ou de l'objet et représente leur existence pendant la durée de l'interaction.  
+Elle est continue tant que l'objet ou l'acteur est actif dans le scénario.
 
-### Message :
+### Fin de vie :
 
-Les messages envoyés d'un acteur ou d'un objet à un autre sont représentés par des flèches horizontales ou obliques
-reliant les lignes de vie. Les messages synchrones (appels bloquants) sont représentés par une flèche pleine, tandis que
-les messages asynchrones (appels non bloquants) utilisent une flèche creuse.
+Indique la destruction ou la fin de la participation de l'objet ou de l'acteur.  
+Symbolisé par un "X" à la fin de la ligne de vie.
 
-### Activation :
+### Barre d'activation (focus de contrôle) :
 
-Un rectangle vertical sur une ligne de vie montre la période pendant laquelle l'objet est actif, c'est-à-dire en train
-de traiter un message ou une opération.
+Représente une période pendant laquelle un objet ou un acteur exécute une action.  
+C'est une barre verticale placée sur la ligne de vie pendant la durée de l'exécution d'une méthode ou d'une activité.
 
-### Cadre de Fragment :
+### Alternative (alt) :
 
-Un cadre rectangulaire englobe un groupe d'interactions et est utilisé pour décrire des structures de contrôle
-complexes. Les types de fragments incluent :
+Utilisée pour modéliser des blocs conditionnels (si/alors/sinon).  
+Représenté par un cadre rectangulaire divisé en sections, avec les conditions associées à chaque section. Il inclut
+généralement les mots-clés « alt ».
 
-- **Alt (Alternative) :** Equivalent à un bloc if-else.
-- **Opt (Optionnel) :** Bloc if simple pour des interactions optionnelles.
-- **Loop (Boucle) :** Indique que les interactions doivent se répéter plusieurs fois.
-- **Par (Parallèle) :** Indique des interactions pouvant se produire en parallèle.
+### Loop :
 
-### Retour :
+Modélise une boucle répétitive dans le diagramme.  
+Représentée par un cadre rectangulaire avec une étiquette « loop » au-dessus, indiquant que les messages à l'intérieur
+sont répétés.
 
-Une flèche pointillée pointe vers l'arrière pour montrer le retour d'une valeur ou la fin d'une opération.
+### Message synchrone :
 
-### Notes :
+Un appel de méthode où l'expéditeur attend une réponse avant de continuer.  
+Représenté par une flèche pleine, pointue à l'extrémité, allant de l'envoyeur au récepteur.
 
-Des commentaires peuvent être ajoutés au diagramme pour expliquer ou clarifier les interactions.
+### Message asynchrone :
+
+Un message où l'expéditeur n'attend pas de réponse et continue son exécution.  
+Représenté par une flèche pleine avec une pointe ouverte.
+
+### Message de création :
+
+Utilisé pour créer un objet pendant l'exécution.  
+Représenté par une flèche pointue allant vers la ligne de vie de l'objet nouvellement créé. La ligne de vie commence à
+partir de ce message.
+
+### Message de réponse :
+
+Représente le retour d'un message synchrone (comme une réponse après un appel de méthode).  
+Représenté par une flèche en pointillés, allant du récepteur à l'expéditeur.
+
+### Message de retour asynchrone :
+
+Le retour d'un message asynchrone, similaire au message de réponse mais pour un message asynchrone.  
+Représenté aussi par une flèche en pointillés, mais le flux est généralement plus libre car l'expéditeur ne l'attend pas
+immédiatement.
 
 ## Exercices pratiques
 

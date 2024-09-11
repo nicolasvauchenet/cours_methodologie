@@ -72,6 +72,40 @@ Ces couloirs regroupent les activités par rôles ou responsabilités, aidant à
 acteur ou sous-système impliqué dans le processus.  
 ![03-example3.png](../images/03-example3.png)
 
+### Fork (fourche) :
+
+Le fork est représenté par une barre horizontale ou verticale. Il permet de diviser un flux d'exécution unique en
+plusieurs flux parallèles. À partir d'un fork, plusieurs activités peuvent se dérouler en parallèle, chacune sur un
+chemin différent.
+
+### Join (jonction) :
+
+Le join est aussi représenté par une barre horizontale ou verticale, comme le fork. Il permet de synchroniser des flux
+parallèles en un flux unique. Autrement dit, il attend que tous les chemins précédents se terminent avant de continuer
+l'exécution.
+
+### Merge (fusion) :
+
+Le merge est représenté par un losange. Contrairement au fork/join, il s'agit de fusionner plusieurs chemins alternatifs
+en un seul flux. Il ne nécessite pas d'attendre que plusieurs activités parallèles se terminent.
+
+### Guard (garde) :
+
+Une guard est une condition placée sur une transition entre deux activités. Elle est représentée par une expression
+booléenne entre crochets, associée à une flèche de transition. Elle définit si le flux d'activité peut continuer ou non
+en fonction de cette condition.
+
+![03-example4.png](../images/03-example4.png)
+
+#### Différences clés :
+
+- Fork et join sont liés aux flux parallèles. Le fork divise un flux en plusieurs, tandis que le join synchronise
+  plusieurs flux parallèles en un seul.
+- Merge concerne les chemins alternatifs (pas parallèles), il permet de fusionner différents chemins possibles sans
+  attendre d'autres flux.
+- Guard est une condition de contrôle sur une transition, dictant si une activité peut être exécutée ou non en fonction
+  d'une condition spécifique.
+
 ## Exercices pratiques
 
 ### [Plateforme de Gestion d'Événements pour Entreprises](../Exercices/E%CC%81nonce%CC%81/03%20-%20Diagramme%20d%27Activit%C3%A9%20-%20Exercice%201.md)

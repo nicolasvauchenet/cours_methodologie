@@ -61,11 +61,10 @@ pointe non remplie. Elles indiquent qu'un acteur ou un cas d'utilisation hérite
 
 ### Inclusion et Extension :
 
-- **Inclusion (flèche pointillée avec <<include>>) :**
-- Signifie qu'un cas d'utilisation intègre un autre cas d'utilisation pour compléter sa fonctionnalité.
-- **Extension (flèche pointillée avec <<extend>>) :**
-- Indique qu'un cas d'utilisation peut ajouter de nouvelles fonctionnalités conditionnelles à un autre cas
-  d'utilisation.
+- **Inclusion (flèche pointillée avec `<<include>>`) :** Signifie qu'un cas d'utilisation intègre un autre cas
+  d'utilisation pour compléter sa fonctionnalité.
+- **Extension (flèche pointillée avec `<<extend>>`) :** Indique qu'un cas d'utilisation peut ajouter de nouvelles
+  fonctionnalités conditionnelles à un autre cas d'utilisation.
 
 ### Cadre de Système ou de Paquetage :
 
