@@ -108,6 +108,6 @@ en fonction de cette condition.
 
 ## Exercices pratiques
 
-### [Plateforme de Gestion d'Événements pour Entreprises](../Exercices/E%CC%81nonce%CC%81/03%20-%20Diagramme%20d%27Activit%C3%A9%20-%20Exercice%201.md)
+### [Plateforme de Gestion d'Événements pour Entreprises](../Exercices/Énoncé/03%20-%20Diagramme%20d'Activité%20-%20Exercice%201.md)
 
-### [Processus de paiement d'un site de vente en ligne](../Exercices/E%CC%81nonce%CC%81/03%20-%20Diagramme%20d%27Activit%C3%A9%20-%20Exercice%202.md)
+### [Processus de paiement d'un site de vente en ligne](../Exercices/Énoncé/03%20-%20Diagramme%20d'Activité%20-%20Exercice%202.md)

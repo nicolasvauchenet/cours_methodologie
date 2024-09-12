@@ -105,6 +105,6 @@ immédiatement.
 
 ## Exercices pratiques
 
-### [Plateforme de Gestion d'Événements pour Entreprises](../Exercices/E%CC%81nonce%CC%81/04%20-%20Diagramme%20de%20S%C3%A9quence%20-%20Exercice%201.md)
+### [Plateforme de Gestion d'Événements pour Entreprises](../Exercices/Énoncé/04%20-%20Diagramme%20de%20Séquence%20-%20Exercice%201.md)
 
-### [Distributeur Automatique de Billets (ATM)](../Exercices/E%CC%81nonce%CC%81/04%20-%20Diagramme%20de%20S%C3%A9quence%20-%20Exercice%202.md)
+### [Distributeur Automatique de Billets (ATM)](../Exercices/Énoncé/04%20-%20Diagramme%20de%20Séquence%20-%20Exercice%202.md)

@@ -171,6 +171,6 @@ du scénario à modéliser :
 
 ## Exercices pratiques
 
-### [Plateforme de Gestion d'Événements](../Exercices/E%CC%81nonce%CC%81/05%20-%20Diagramme%20de%20Classes%20-%20Exercice%201.md)
+### [Plateforme de Gestion d'Événements](../Exercices/Énoncé/05%20-%20Diagramme%20de%20Classes%20-%20Exercice%201.md)
 
-### [Système de réservation de bibliothèque en ligne](../Exercices/E%CC%81nonce%CC%81/05%20-%20Diagramme%20de%20Classes%20-%20Exercice%202.md)
+### [Système de réservation de bibliothèque en ligne](../Exercices/Énoncé/05%20-%20Diagramme%20de%20Classes%20-%20Exercice%202.md)

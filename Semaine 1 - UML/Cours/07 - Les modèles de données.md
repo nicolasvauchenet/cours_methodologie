@@ -261,6 +261,6 @@ navigation et des requêtes rapides sur des relations complexes.
 
 ## Exercices pratiques
 
-### [Plateforme de Gestion d'Événements](../Exercices/E%CC%81nonce%CC%81/07%20-%20Mod%C3%A8le%20Entit%C3%A9-Relation%20-%20Exercice%201.md)
+### [Plateforme de Gestion d'Événements](../Exercices/Énoncé/07%20-%20Modèle%20Entité-Relation%20-%20Exercice%201.md)
 
-### [Système de Gestion Universitaire](../Exercices/E%CC%81nonce%CC%81/07%20-%20Mod%C3%A8le%20Entit%C3%A9-Relation%20-%20Exercice%202.md)
+### [Système de Gestion Universitaire](../Exercices/Énoncé/07%20-%20Modèle%20Entité-Relation%20-%20Exercice%202.md)
