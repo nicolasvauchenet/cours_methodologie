@@ -1,5 +1,7 @@
 # 01b. Le Modèle Logique des Données (MLD)
 
+![03-example.png](../images/03-example.png)
+
 ## Présentation
 
 Le Modèle Logique des Données (MLD) est une étape clé de la méthode Merise, qui intervient après la création du Modèle
