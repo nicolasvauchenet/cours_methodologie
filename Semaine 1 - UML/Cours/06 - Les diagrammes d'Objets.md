@@ -207,4 +207,6 @@ répondent à des événements en passant d'un état à un autre.
 
 ## Exercice pratique
 
-### [Transactions de Réservation de Livres](../Exercices/Énoncé/06%20-%20Diagramme%20d'Objets%20-%20Exercice.md)
+### [Diagramme de Communication - Transactions de Réservation de Livres](../Exercices/E%CC%81nonce%CC%81/06%20-%20Diagramme%20de%20Communication%20-%20Exercice.md)
+
+### [Diagramme d'État-Transition - Transactions de Réservation de Livres](../Exercices/E%CC%81nonce%CC%81/06%20-%20Diagramme%20d%27%C3%89tat-Transition%20-%20Exercice.md)
