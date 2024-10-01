@@ -78,4 +78,6 @@ La conception du MLD à partir du MCD se fait de manière méthodique en suivant
 
 ## Exercice pratique
 
-### [Système de gestion de réservation de chambres d'hôtel](../Exercices/%C3%89nonc%C3%A9/01b%20-%20Le%20Mod%C3%A8le%20Logique%20des%20Donn%C3%A9es%20-%20Exercice%202.md)
+### [Plateforme de Gestion d'Événements](../Exercices/%C3%89nonc%C3%A9/03%20-%20Mod%C3%A8le%20Logique%20des%20Donn%C3%A9es%20-%20Exercice%201.md)
+
+### [Système de gestion de réservation de chambres d'hôtel](../Exercices/%C3%89nonc%C3%A9/03%20-%20Mod%C3%A8le%20Logique%20des%20Donn%C3%A9es%20-%20Exercice%202.md)

@@ -1,4 +1,4 @@
-# Modèle Logique de Données - Exercice : Système de gestion de réservation de chambres d'hôtel
+# Modèle Logique des Données - Exercice : Système de gestion de réservation de chambres d'hôtel
 
 ## Contexte :
 

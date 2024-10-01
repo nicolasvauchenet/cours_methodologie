@@ -24,16 +24,16 @@ Introduction aux différentes étapes de la modélisation dans Merise : du conce
 
 ### 01a. Le Modèle Conceptuel des Données (MCD)
 
-#### Présentation et exercice
+#### Présentation et exercices
 
-Explication du MCD, ses composants et son rôle dans la modélisation des données, et exercice pratique de création d'un
+Explication du MCD, ses composants et son rôle dans la modélisation des données, et exercices pratiques de création d'un
 MCD à partir d'un cas concret.
 
 ### 01b. Le Modèle Logique des Données (MLD)
 
-#### Présentation et exercice
+#### Présentation et exercices
 
-Présentation du MLD, et exercice pour passer du MCD au MLD en prenant en compte les contraintes relationnelles.
+Présentation du MLD, et exercices pour passer du MCD au MLD en prenant en compte les contraintes relationnelles.
 
 ### 01c. Le Modèle Physique des Données (MPD)
 
@@ -49,10 +49,6 @@ l'intégrité des données.
 #### Présentation
 
 Présentation du MPD.
-
-### Étude de cas complète
-
-Étude de cas complète sur la modélisation d'un système d'information de bout en bout en utilisant Merise.
 
 ### Quizz récapitulatif UML
 

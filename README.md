@@ -80,18 +80,17 @@ pour la gestion de projets. À la fin de ce cours, les étudiants seront capable
 
 #### 01a. Le Modèle Conceptuel des Données (MCD)
 
-- Introduction au MCD et exercice pratique pour modéliser les données d’un système.
+- Introduction au MCD et exercices pratiques pour modéliser les données d’un système.
 
 #### 01b. Le Modèle Logique des Données (MLD)
 
 - Passage du MCD au MLD en prenant en compte les contraintes relationnelles.
-- **Exercice** : Conversion du MCD en MLD.
+- **Exercices** : Conversion du MCD en MLD.
 
 #### 01c. Le Modèle Physique des Données (MPD)
 
 - **Choix du SGBD** : Sélectionner et préparer un système de gestion de bases de données.
 - **Optimisation** : Techniques pour optimiser les bases de données et garantir l'intégrité des données.
-- **Étude de cas** : Étude complète de modélisation en Merise.
 
 #### 02. Méthodes Agiles
 
