@@ -1,5 +1,7 @@
 # 01a. Le Modèle Conceptuel des Données (MCD)
 
+![02-example.png](../images/02-example.png)
+
 ## Présentation
 
 Le Modèle Conceptuel des Données (MCD) est l’un des éléments centraux de la méthode Merise. Il permet de représenter de
@@ -24,6 +26,8 @@ Le MCD est un outil fondamental pour l'analyse et la conception des systèmes d'
   équipes techniques et non techniques.
 
 ## Symboles du MCD
+
+![02-symbols.png](../images/02-symbols.png)
 
 Le MCD utilise un ensemble de symboles standards pour représenter les entités, les relations et les contraintes. Voici
 les principaux éléments :
@@ -72,6 +76,6 @@ abstraite des données. Voici les principales étapes :
 
 ## Exercice pratique
 
-### [Plateforme de Gestion d'Événements pour Entreprises](...)
+### [Plateforme de Gestion d'Événements pour Entreprises](../Exercices/%C3%89nonc%C3%A9/02%20-%20Mod%C3%A8le%20Conceptuel%20de%20Donn%C3%A9es%20-%20Exercice%201.md)
 
-### [Système de réservation de bibliothèque en ligne](../Exercices/%C3%89nonc%C3%A9/01a%20-%20Le%20Mod%C3%A8le%20Conceptuel%20de%20Donn%C3%A9es%20-%20Exercice%202.md)
+### [Système de réservation de bibliothèque en ligne](../Exercices/%C3%89nonc%C3%A9/02%20-%20Mod%C3%A8le%20Conceptuel%20de%20Donn%C3%A9es%20-%20Exercice%202.md)
