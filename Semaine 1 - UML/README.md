@@ -82,7 +82,7 @@ Un snapshot des instances de classe à un moment donné.
 
 Exercices pour modéliser les objets.
 
-### 06b. Le diagramme de Collaboration
+### 06b. Le diagramme de Communication
 
 #### Présentation et symboles
 

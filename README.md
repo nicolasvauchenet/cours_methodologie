@@ -48,7 +48,7 @@ pour la gestion de projets. À la fin de ce cours, les étudiants seront capable
 - **06a. Diagramme d'Objets** : Snapshot des instances de classe à un moment donné.
 - **Exercice** : Modéliser les objets d'un scénario concret.
 
-- **06b. Diagramme de Collaboration** : Représentation des interactions entre objets pour accomplir une tâche.
+- **06b. Diagramme de Communication** : Représentation des interactions entre objets pour accomplir une tâche.
 
 - **06c. Diagramme État / Transition** : Modélisation des états d’un objet au cours de son cycle de vie.
 

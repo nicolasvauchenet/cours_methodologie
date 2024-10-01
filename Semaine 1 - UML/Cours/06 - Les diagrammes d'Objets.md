@@ -62,22 +62,22 @@ combien d'instances d'un objet peuvent être associées à une instance d'un aut
 Les liens peuvent aussi représenter des relations de composition (losange plein) ou d'agrégation (losange vide),
 montrant la hiérarchie des parties et du tout entre les objets.
 
-## 06b. Le diagramme de Collaboration
+## 06b. Le diagramme de Communication (ex Collaboration)
 
 ![06b-example.png](../images/06b-example.png)
 
 ### Présentation
 
-Les diagrammes de collaboration en UML, également appelés diagrammes de communication, sont utilisés pour représenter
+Les diagrammes de communication en UML, anciennement appelés diagrammes de collaboration, sont utilisés pour représenter
 les interactions entre les objets ou composants dans un système, en se concentrant sur la structure organisationnelle
-des collaborations. Ils combinent les informations d'un diagramme de séquence et d'un diagramme de structure, montrant à
+des communications. Ils combinent les informations d'un diagramme de séquence et d'un diagramme de structure, montrant à
 la fois l'ordre des interactions et les relations structurelles entre les entités.
 
 ### Utilité dans le Développement Logiciel
 
 #### Analyse de la Communication :
 
-Les diagrammes de collaboration aident à comprendre comment les objets communiquent et interagissent dans le système.
+Les diagrammes de communication aident à comprendre comment les objets communiquent et interagissent dans le système.
 Ils montrent quelles méthodes sont invoquées et dans quel ordre, fournissant un aperçu clair de l'orchestration des
 tâches entre les différents éléments.
 
@@ -89,7 +89,7 @@ efficace et minimise les dépendances complexes.
 
 #### Documentation et Formation :
 
-Les diagrammes de collaboration offrent une documentation utile pour les nouveaux membres de l'équipe de développement,
+Les diagrammes de communication offrent une documentation utile pour les nouveaux membres de l'équipe de développement,
 les aidant à comprendre rapidement le comportement des objets dans différents scénarios et à se familiariser avec la
 structure des composants.
 
@@ -125,8 +125,6 @@ boucle entre crochets. Par exemple, [*] message1 signifie que message1 est envoy
 ## 06c. Le diagramme État / Transition
 
 ![06c-example.png](../images/06c-example.png)
-
-![06c-example2.png](../images/06c-example2.png)
 
 ### Présentation
 
