@@ -22,20 +22,20 @@ appropriée.
 
 Introduction aux différentes étapes de la modélisation dans Merise : du concept à l'implémentation physique.
 
-### 01a. Le Modèle Conceptuel des Données (MCD)
+### Le Modèle Conceptuel des Données (MCD)
 
 #### Présentation et exercices
 
 Explication du MCD, ses composants et son rôle dans la modélisation des données, et exercices pratiques de création d'un
 MCD à partir d'un cas concret.
 
-### 01b. Le Modèle Logique des Données (MLD)
+### Le Modèle Logique des Données (MLD)
 
 #### Présentation et exercices
 
 Présentation du MLD, et exercices pour passer du MCD au MLD en prenant en compte les contraintes relationnelles.
 
-### 01c. Le Modèle Physique des Données (MPD)
+### Le Modèle Physique des Données (MPD)
 
 #### Choix et préparation du SGBD
 
@@ -54,45 +54,72 @@ Présentation du MPD.
 
 Quizz pour réviser les concepts de Merise et faire le lien avec UML.
 
+---
+
 ## 02. Agile
 
-### Historique des méthodes de gestion de projet
+#### Historique des méthodes de gestion de projet
 
-Une vue d'ensemble sur l'évolution des méthodes de gestion de projet, du traditionnel à l'agile.
+- **Contenu** : Vue d’ensemble de l’évolution des méthodes de gestion de projet, du traditionnel à l’agile.
+- **Exercice** : Présenter des expressions de besoins et demander aux apprenants de choisir entre une méthode
+  traditionnelle ou agile, en justifiant leur choix.
 
-### Présentation des méthodes traditionnelles
+#### Présentation des méthodes traditionnelles
 
-Présentation des approches traditionnelles de gestion de projet, comme le cycle en V ou le modèle Waterfall.
+- **Contenu** : Introduction aux approches traditionnelles comme le cycle en V et Waterfall.
+- **Exercice** : Donner un projet et demander de choisir entre le cycle en V ou Waterfall, avec une explication des
+  étapes et du raisonnement derrière leur choix.
 
-### Présentation de LEAN
+#### Présentation de LEAN
 
-Introduction à la méthodologie LEAN, ses principes et son influence sur les méthodes agiles.
+- **Contenu** : Introduction à la méthodologie Lean, ses principes (réduction des gaspillages, amélioration continue) et
+  son influence sur l’agilité.
 
-### Introduction à l'agilité
+#### Introduction à l'agilité
 
-Présentation des principes fondamentaux de l'agilité et de sa mise en œuvre dans le développement logiciel.
+- **Contenu** : Définition et explication des principes fondamentaux de l'agilité dans le développement logiciel.
 
-### Le Manifeste Agile, valeurs et principes
+#### Le Manifeste Agile, valeurs et principes
 
-Examen des 4 valeurs et 12 principes du Manifeste Agile qui servent de fondement aux méthodes agiles.
+- **Contenu** : Étude des 4 valeurs et des 12 principes du Manifeste Agile.
+- **Exercice** : Proposer des scénarios où les apprenants doivent repérer des erreurs ou des non-conformités aux valeurs
+  et principes du Manifeste Agile, et proposer des corrections.
 
-### Les méthodes agiles historiques, populaires et utiles
+#### Les méthodes agiles historiques, populaires et utiles
 
-Présentation des principales méthodes agiles :
+- **Contenu** : Introduction à plusieurs méthodes agiles :
+    - Kanban
+    - SCRUM
+    - Extreme Programming (XP)
+    - Agile Modeling
+    - Crystal
 
-- Kanban
-- SCRUM
-- Extreme Programming (XP)
-- Agile Modeling
-- Crystal
+#### Focus sur Extreme Programming (XP)
 
-### 02a. SCRUM
+- **Contenu** : Présentation des pratiques clés (pair programming, TDD, refactoring, etc.).
+- **Exercices** :
+    - Mettre en place un plan d'implémentation de **pair programming**.
+    - Pratiquer le **Test-Driven Development (TDD)** avec un petit projet pratique.
 
-#### Présentation des valeurs, piliers, rôles, artefacts et événements
+#### Focus sur Agile Modeling
 
-Explication détaillée de la méthode SCRUM, ses valeurs fondamentales, les différents rôles (Scrum Master, Product Owner,
-Équipe de développement), les artefacts (Product Backlog, Sprint Backlog, Incrément) et les événements (Sprint, Daily
-Scrum, Sprint Review, Sprint Retrospective).
+- **Contenu** : Présentation des principes de modélisation agile (just enough, good enough).
+- **Exercice** : Modélisation d'un petit projet (par exemple, une application de gestion de bibliothèque) en respectant
+  les principes de simplicité d’Agile Modeling.
+
+#### Focus sur Kanban
+
+- **Contenu** : Explication du tableau Kanban, des règles WIP (Work In Progress), et des principes de priorisation.
+- **Exercice** : Création d’un tableau Kanban pour un projet avec une liste de tâches, définition des règles WIP, et
+  justification des choix de priorisation.
+
+#### Focus sur Scrum
+
+- **Contenu** : Présentation des valeurs, piliers, rôles (Scrum Master, Product Owner, Équipe), artefacts (Product
+  Backlog, Sprint Backlog, Incrément) et événements (Sprint, Daily Scrum Meeting, Sprint Review, Sprint Retrospective).
+- **Exercice** : Simuler un **Sprint Planning** avec la définition d'un Sprint Goal, l'estimation des User Stories et l'
+  organisation du backlog. Ensuite, simuler un **Daily Scrum** en demandant à chaque apprenant de faire un tour rapide
+  de leurs progrès.
 
 #### TP : MyTodo
 
@@ -116,6 +143,8 @@ Un atelier pratique basé sur la méthode SCRUM autour d'une application "MyTodo
 ### Quizz récapitulatif Agile
 
 Un quizz pour réviser les concepts et pratiques agiles, particulièrement autour de SCRUM et Kanban.
+
+---
 
 ## 03. Projet d'évaluation final UML / Merise / Agile
 
