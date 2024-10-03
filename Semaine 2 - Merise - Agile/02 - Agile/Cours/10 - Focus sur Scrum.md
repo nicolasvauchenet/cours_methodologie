@@ -367,6 +367,8 @@ comparant une tâche à une autre.
 
 ### Le Planning Poker
 
+![scrum-planning-poker.png](../images/scrum-planning-poker.png)
+
 Le **Planning Poker** est une technique d'estimation utilisée par les équipes Scrum pour attribuer des Story Points aux
 User Stories. Chaque membre de l’équipe reçoit un jeu de cartes avec des chiffres (souvent issus de la suite de
 Fibonacci). Le Product Owner présente une User Story, et chaque membre de l’équipe sélectionne secrètement une carte
@@ -381,6 +383,8 @@ parvenir à un consensus.
 
 #### Le Burndown Chart
 
+![10-scrum-burndown-chart.png](../images/10-scrum-burndown-chart.png)
+
 Le **Burndown Chart** est un graphique qui montre la quantité de travail restant dans un sprint ou un projet. Il permet
 à l’équipe de suivre visuellement la progression du sprint en comparant le travail restant (sur l’axe vertical) par
 rapport au temps écoulé (sur l’axe horizontal). Le Burndown Chart permet de voir rapidement si l'équipe est en avance ou
@@ -391,6 +395,8 @@ en retard par rapport à l'objectif du sprint, et de prendre des mesures correct
   délais.
 
 #### Le Burnup Chart
+
+![10-scrum-burnup-chart.png](../images/10-scrum-burnup-chart.png)
 
 Le **Burnup Chart** est un autre outil de suivi visuel qui montre à la fois la quantité de travail accompli et la
 quantité totale de travail à faire. Contrairement au Burndown Chart, qui se concentre uniquement sur le travail restant,
@@ -403,6 +409,8 @@ portée du projet.
 
 #### Le Velocity Chart
 
+![10-scrum-velocity-chart.png](../images/10-scrum-velocity-chart.png)
+
 Le **Velocity Chart** mesure la quantité de travail terminée par l’équipe à la fin de chaque sprint. Il permet de
 calculer la **vélocité** de l’équipe, c’est-à-dire la quantité moyenne de Story Points complétée par sprint. Cela aide
 l’équipe à estimer la capacité future et à planifier les sprints suivants.
@@ -412,6 +420,8 @@ l’équipe à estimer la capacité future et à planifier les sprints suivants.
   conséquence.
 
 #### Le Cumulative Workflow Chart
+
+![scrum-cumulative-workflow-chart.png](../images/scrum-cumulative-workflow-chart.png)
 
 Le **Cumulative Workflow Chart** est un outil utilisé pour visualiser le flux de travail de l’équipe dans un projet. Ce
 diagramme montre le nombre de tâches à différentes étapes (comme "À faire", "En cours", et "Terminé") sur une période
