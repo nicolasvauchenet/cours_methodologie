@@ -491,3 +491,7 @@ l’équipe de se concentrer sur la production de valeur pendant le sprint.
   filtre de recherche avancé sur un site web. Le Product Owner clarifie les critères d'acceptation et l’équipe estime la
   complexité de cette User Story. Il est décidé de diviser la tâche en deux : l'ajout du filtre de recherche et
   l'optimisation des résultats de recherche, pour que chaque partie soit réalisée dans des sprints séparés.
+
+## TP : Scrum en pratique
+
+### 

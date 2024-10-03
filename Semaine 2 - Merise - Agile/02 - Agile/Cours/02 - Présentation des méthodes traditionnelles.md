@@ -124,3 +124,7 @@ phases de spécification et de conception technique ont été réalisées avec l
 exigences réglementaires, mais le développement s’est fait de manière itérative (inspirée de Scrum) afin de permettre
 des ajustements fréquents sur les fonctionnalités en fonction des retours des utilisateurs finaux. Cette combinaison a
 permis de réduire les délais de livraison tout en respectant les normes strictes du domaine médical.
+
+## Exercice pratique
+
+### [Cycle en V ou Waterfall ?](../Exercices/%C3%89nonc%C3%A9/02%20-%20Pr%C3%A9sentation%20des%20m%C3%A9thodes%20traditionnelles%20-%20Exercice.md)

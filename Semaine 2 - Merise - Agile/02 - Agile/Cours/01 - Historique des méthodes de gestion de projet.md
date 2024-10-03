@@ -111,3 +111,7 @@ traditionnelles pour tirer parti des forces de chaque méthode.
 Dans les années à venir, nous pouvons nous attendre à voir une poursuite de l’évolution des méthodes de gestion de
 projet, avec un accent accru sur l’adaptabilité, la collaboration et l’utilisation de technologies d’automatisation pour
 améliorer la productivité des équipes.
+
+## Exercice pratique
+
+### [Choix d'une méthode de gestion de projet](../Exercices/%C3%89nonc%C3%A9/01%20-%20Les%20m%C3%A9thodes%20de%20gestion%20de%20projet%20-%20Exercice.md)

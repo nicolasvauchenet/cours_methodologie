@@ -114,3 +114,7 @@ Malgré ses nombreux avantages, XP présente également des défis :
   faisable dans certains contextes.
 - XP peut parfois être difficile à implémenter dans des environnements plus rigides ou dans des projets très complexes
   nécessitant beaucoup de documentation.
+
+## Exercice pratique
+
+### [Les pratiques clés de Extreme Programming](../Exercices/%C3%89nonc%C3%A9/04%20-%20Focus%20sur%20Extreme%20Programming%20-%20Exercice.md)

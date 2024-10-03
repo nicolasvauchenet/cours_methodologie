@@ -124,3 +124,7 @@ allégée pour répondre aux besoins immédiats du projet.
 
 Ces outils, bien qu'issus de méthodologies plus traditionnelles, peuvent apporter une rigueur utile dans Agile Modeling,
 tant qu'ils restent "juste suffisants" et adaptables aux changements.
+
+## Exercice pratique
+
+### [Modélisation agile avec "just enough" et "good enough"](../Exercices/%C3%89nonc%C3%A9/05%20-%20Focus%20sur%20Agile%20Modeling%20-%20Exercice.md)

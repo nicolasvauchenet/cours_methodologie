@@ -201,3 +201,7 @@ des membres, et visualiser les projets sous différents angles (tableaux, listes
   plusieurs formes.
 - **Points forts** : Grande flexibilité, nombreuses fonctionnalités (tableaux, listes, Gantt), gestion complète de
   projet.
+
+## Exercice pratique
+
+### [Mise en place d’un tableau Kanban](../Exercices/%C3%89nonc%C3%A9/06%20-%20Focus%20sur%20Kanban%20-%20Exercice.md)

@@ -183,3 +183,7 @@ Les débats actuels autour de l'agilité se concentrent notamment sur :
 
 Le Manifeste Agile reste donc extrêmement pertinent aujourd'hui, mais son application doit être adaptée aux contextes
 spécifiques des organisations modernes, tout en conservant ses valeurs fondamentales.
+
+## Exercice pratique
+
+### [Identifier les non-conformités aux valeurs et principes du Manifeste Agile](../Exercices/%C3%89nonc%C3%A9/03%20-%20Le%20Manifeste%20Agile%2C%20valeurs%20et%20principes%20-%20Exercice.md)
