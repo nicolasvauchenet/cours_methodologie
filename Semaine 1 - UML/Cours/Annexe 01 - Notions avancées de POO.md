@@ -172,6 +172,114 @@ makeAnimalSpeak($cat); // Cat says: Meow!
 - **Modularité** : Facilite l'ajout de nouvelles classes qui respectent le même contrat sans modifier les classes
   existantes.
 
+### Exemple combinant interface et abstraction
+
+```php
+<?php
+
+// Interface Speakable : oblige à implémenter la méthode speak()
+interface Speakable {
+    public function speak();
+}
+
+// Interface Flyable : oblige à implémenter la méthode fly()
+interface Flyable {
+    public function fly();
+}
+
+// Classe abstraite Animal : base pour les animaux avec une méthode abstraite move()
+abstract class Animal {
+    // Méthode abstraite move()
+    abstract public function move();
+}
+
+// Classe Dog héritant d'Animal et implémentant Speakable
+class Dog extends Animal implements Speakable {
+    public function move() {
+        return "I run!";
+    }
+
+    public function speak() {
+        return "Woof!";
+    }
+}
+
+// Classe Cat héritant d'Animal et implémentant Speakable
+class Cat extends Animal implements Speakable {
+    public function move() {
+        return "I sneak!";
+    }
+
+    public function speak() {
+        return "Meow!";
+    }
+}
+
+// Classe Bee implémentant Flyable (mais pas Speakable)
+class Bee extends Animal implements Flyable {
+    public function move() {
+        return "I fly!";
+    }
+
+    public function fly() {
+        return "Buzzing through the air!";
+    }
+}
+
+// Utilisation du polymorphisme avec l'interface Speakable
+function makeAnimalSpeak(Speakable $animal) {
+    echo get_class($animal) . " says: " . $animal->speak() . "\n";
+}
+
+// Utilisation du polymorphisme avec la méthode abstraite move() (pour n'importe quel Animal)
+function moveAnimal(Animal $animal) {
+    echo get_class($animal) . " moves like this: " . $animal->move() . "\n";
+}
+
+// Exemple d'utilisation
+$dog = new Dog();
+$cat = new Cat();
+$bee = new Bee();
+
+makeAnimalSpeak($dog); // Dog says: Woof!
+makeAnimalSpeak($cat); // Cat says: Meow!
+// makeAnimalSpeak($bee); // Provoquerait une erreur car Bee n'implémente pas Speakable
+
+moveAnimal($dog); // Dog moves like this: I run!
+moveAnimal($cat); // Cat moves like this: I sneak!
+moveAnimal($bee); // Bee moves like this: I fly!
+
+// Pour les méthodes spécifiques aux interfaces Flyable
+function makeAnimalFly(Flyable $animal) {
+    echo get_class($animal) . " flies like this: " . $animal->fly() . "\n";
+}
+
+makeAnimalFly($bee); // Bee flies like this: Buzzing through the air!
+
+?>
+```
+
+### Avantages de combiner interface et abstraction
+
+- **Flexibilité** : Les classes peuvent implémenter plusieurs interfaces et hériter de classes abstraites, offrant une
+  grande flexibilité dans la conception des classes.
+- **Clarté** : Les interfaces définissent un contrat clair pour les classes, tandis que les classes abstraites
+  fournissent une implémentation de base pour les méthodes.
+- **Modularité** : Les classes peuvent être conçues pour implémenter des interfaces spécifiques, ce qui permet de
+  regrouper des fonctionnalités similaires et de les réutiliser dans d'autres classes.
+- **Extensibilité** : Les classes peuvent facilement ajouter de nouvelles fonctionnalités en implémentant de nouvelles
+  interfaces ou en héritant de nouvelles classes abstraites.
+- **Séparation des préoccupations** : Les interfaces et les classes abstraites permettent de séparer les préoccupations
+  et de maintenir un code propre et modulaire.
+- **Facilité de test** : Les interfaces et les classes abstraites facilitent les tests unitaires en permettant de
+  substituer des objets par des mocks ou des stubs.
+- **Réutilisabilité** : Les interfaces et les classes abstraites favorisent la réutilisabilité du code en permettant de
+  concevoir des classes génériques et extensibles.
+- **Développement par contrat** : Les interfaces permettent de définir des contrats clairs entre les classes, ce qui
+  facilite la collaboration entre les développeurs.
+- **Dépendance minimale** : Les interfaces permettent de réduire les dépendances entre les classes en se concentrant sur
+  les contrats plutôt que sur les implémentations.
+
 ### Conclusion
 
 Le polymorphisme permet de traiter des objets de différents types de manière uniforme, simplifiant le code et le rendant
