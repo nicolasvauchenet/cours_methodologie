@@ -88,8 +88,8 @@ doivent guider vos choix dans la modélisation UML.
 
     - **Diagramme de cas d'utilisation** (30 minutes) : Identifiez les acteurs (artistes, bénévoles, festivaliers,
       responsables de la billetterie, techniciens) et leurs interactions avec le système.
-    - **Diagramme d'activité** (30 minutes) : Choisissez deux processus critiques parmi la billetterie, la
-      programmation, l'accueil des artistes, ou la gestion des urgences, et détaillez-les.
+    - **Diagramme d'activité** (30 minutes) : Choisissez un processus critique parmi la billetterie, la programmation,
+      l'accueil des artistes, ou la gestion des urgences, et détaillez-le.
     - **Diagramme de séquence** (45 minutes) : Décrivez une interaction clé entre un acteur et le système, comme la
       vente de billets ou l'accueil des artistes.
     - **Diagramme de classes** (1h30) : Modélisez la structure du système avec les différentes classes : artistes,
