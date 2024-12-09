@@ -169,7 +169,7 @@ Ces diagrammes sont utilisés pour modéliser le comportement et les aspects dyn
 - **Diagrammes de timing :**  
   Ces diagrammes représentent les changements d'état ou les conditions d'un objet au fil du temps. Ils sont utiles dans
   le développement de systèmes embarqués et en temps réel où la compréhension des contraintes temporelles est critique.
-- **Diagrammes de collaboration (diagrammes de communication) :**  
+- **Diagrammes de communication (auparavant nommés communication) :**  
   Ils mettent en évidence les interactions entre les objets en fonction de leurs liens et de leur organisation, montrant
   la collaboration de plusieurs objets pour réaliser une fonctionnalité. Ce sont des outils précieux lors de la phase de
   conception pour assurer que tous les composants du système fonctionnent ensemble de manière cohérente.
