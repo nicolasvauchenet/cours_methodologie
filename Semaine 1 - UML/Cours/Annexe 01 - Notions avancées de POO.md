@@ -1,6 +1,122 @@
 # Notions avancées en POO
 
-## 1. Le polymorphisme
+## 1. L'encapsulation
+
+L'encapsulation est un mécanisme de restriction de l'accès direct aux composants d'un objet, ce qui protège l'intégrité
+des données de l'objet en empêchant des interférences extérieures ou une utilisation incorrecte.
+
+- **Protection des données :**  
+  Les attributs d'un objet sont cachés et seulement accessibles via des méthodes définies dans la classe (souvent
+  appelées getters et setters). Cela assure que les données internes ne peuvent pas être changées arbitrairement,
+  imposant un contrôle strict sur la manière dont les données essentielles sont modifiées et consultées.
+- **Contrôle de l'accès :**  
+  L'encapsulation utilise des modificateurs d'accès tels que public, private, et protected pour contrôler comment les
+  membres de données sont visibles à l'extérieur de la classe. Les méthodes publiques fournissent une interface avec
+  l'extérieur, tandis que les détails internes restent privés, permettant à la classe de garantir qu'aucun comportement
+  erroné ne soit induit par des changements inattendus dans son état interne.
+- **Cohérence et validation :**  
+  En encapsulant les données, les classes peuvent forcer des règles de validation sur les données entrantes,
+  garantissant que l'objet reste dans un état valide. Par exemple, si une classe CompteBancaire a un attribut solde, le
+  setter pour ce solde peut vérifier que les fonds ne sont pas définis à une valeur négative.
+
+L'encapsulation et le polymorphisme sont des piliers de la POO qui permettent de construire des systèmes plus fiables,
+modulaires et évolutifs. Ces mécanismes aident à gérer la complexité et à augmenter la réutilisabilité du code, tout en
+améliorant la maintenance et la flexibilité des logiciels.
+
+### Exemple sans encapsulation en PHP
+
+```php
+<?php
+
+class Dog {
+    public $name;
+    public $breed;
+
+    public function __construct($name, $breed) {
+        $this->name = $name;
+        $this->breed = $breed;
+    }
+
+    public function speak() {
+        return "Woof!";
+    }
+}
+
+$dog = new Dog("Buddy", "Golden Retriever");
+echo $dog->name . " says " . $dog->speak() . "\n"; // Buddy says Woof!
+echo "Breed: " . $dog->breed . "\n"; // Breed: Golden Retriever
+
+// Direct access to properties
+$dog->name = "Max";
+echo $dog->name . " says " . $dog->speak() . "\n"; // Max says Woof!
+```
+
+### Exemple avec encapsulation en PHP
+
+```php
+<?php
+
+class Dog {
+    private $name;
+    private $breed;
+
+    public function __construct($name, $breed) {
+        $this->setName($name);
+        $this->setBreed($breed);
+    }
+
+    public function setName($name) {
+        if (!empty($name)) {
+            $this->name = $name;
+        } else {
+            throw new Exception("Name cannot be empty");
+        }
+    }
+
+    public function getName() {
+        return $this->name;
+    }
+
+    public function setBreed($breed) {
+        if (!empty($breed)) {
+            $this->breed = $breed;
+        } else {
+            throw new Exception("Breed cannot be empty");
+        }
+    }
+
+    public function getBreed() {
+        return $this->breed;
+    }
+
+    public function speak() {
+        return "Woof!";
+    }
+}
+
+$dog = new Dog("Buddy", "Golden Retriever");
+echo $dog->getName() . " says " . $dog->speak() . "\n"; // Buddy says Woof!
+echo "Breed: " . $dog->getBreed() . "\n"; // Breed: Golden Retriever
+
+// Trying to change the name directly will not work
+//$dog->name = "Max"; // Error
+$dog->setName("Max");
+echo $dog->getName() . " says " . $dog->speak() . "\n"; // Max says Woof!
+```
+
+### Comparaison avec et sans encapsulation
+
+1. Sans encapsulation :
+    - Les propriétés de la classe sont accessibles directement, ce qui peut mener à des modifications involontaires ou
+      incorrectes des données internes.
+    - Le code est moins sécurisé et moins maintenable.
+
+2. Avec encapsulation :
+    - Les propriétés de la classe sont privées et accessibles uniquement via des méthodes publiques (getter et setter).
+    - Cela permet de contrôler et de valider les modifications des données internes.
+    - Le code est plus sécurisé, maintenable et respecte le principe d'encapsulation de la POO.
+
+## 2. Le polymorphisme
 
 Le polymorphisme est un principe clé de la programmation orientée objet (POO) qui permet aux objets de différentes
 classes de répondre à la même action, chaque objet traitant l'action d'une manière appropriée à son type. Ce concept
@@ -286,122 +402,6 @@ Le polymorphisme permet de traiter des objets de différents types de manière u
 plus modulaire et extensible. En utilisant le polymorphisme, nous pouvons facilement ajouter de nouveaux types d'animaux
 sans avoir à modifier les fonctions existantes.
 
-## 2. L'encapsulation
-
-L'encapsulation est un mécanisme de restriction de l'accès direct aux composants d'un objet, ce qui protège l'intégrité
-des données de l'objet en empêchant des interférences extérieures ou une utilisation incorrecte.
-
-- **Protection des données :**  
-  Les attributs d'un objet sont cachés et seulement accessibles via des méthodes définies dans la classe (souvent
-  appelées getters et setters). Cela assure que les données internes ne peuvent pas être changées arbitrairement,
-  imposant un contrôle strict sur la manière dont les données essentielles sont modifiées et consultées.
-- **Contrôle de l'accès :**  
-  L'encapsulation utilise des modificateurs d'accès tels que public, private, et protected pour contrôler comment les
-  membres de données sont visibles à l'extérieur de la classe. Les méthodes publiques fournissent une interface avec
-  l'extérieur, tandis que les détails internes restent privés, permettant à la classe de garantir qu'aucun comportement
-  erroné ne soit induit par des changements inattendus dans son état interne.
-- **Cohérence et validation :**  
-  En encapsulant les données, les classes peuvent forcer des règles de validation sur les données entrantes,
-  garantissant que l'objet reste dans un état valide. Par exemple, si une classe CompteBancaire a un attribut solde, le
-  setter pour ce solde peut vérifier que les fonds ne sont pas définis à une valeur négative.
-
-L'encapsulation et le polymorphisme sont des piliers de la POO qui permettent de construire des systèmes plus fiables,
-modulaires et évolutifs. Ces mécanismes aident à gérer la complexité et à augmenter la réutilisabilité du code, tout en
-améliorant la maintenance et la flexibilité des logiciels.
-
-### Exemple sans encapsulation en PHP
-
-```php
-<?php
-
-class Dog {
-    public $name;
-    public $breed;
-
-    public function __construct($name, $breed) {
-        $this->name = $name;
-        $this->breed = $breed;
-    }
-
-    public function speak() {
-        return "Woof!";
-    }
-}
-
-$dog = new Dog("Buddy", "Golden Retriever");
-echo $dog->name . " says " . $dog->speak() . "\n"; // Buddy says Woof!
-echo "Breed: " . $dog->breed . "\n"; // Breed: Golden Retriever
-
-// Direct access to properties
-$dog->name = "Max";
-echo $dog->name . " says " . $dog->speak() . "\n"; // Max says Woof!
-```
-
-### Exemple avec encapsulation en PHP
-
-```php
-<?php
-
-class Dog {
-    private $name;
-    private $breed;
-
-    public function __construct($name, $breed) {
-        $this->setName($name);
-        $this->setBreed($breed);
-    }
-
-    public function setName($name) {
-        if (!empty($name)) {
-            $this->name = $name;
-        } else {
-            throw new Exception("Name cannot be empty");
-        }
-    }
-
-    public function getName() {
-        return $this->name;
-    }
-
-    public function setBreed($breed) {
-        if (!empty($breed)) {
-            $this->breed = $breed;
-        } else {
-            throw new Exception("Breed cannot be empty");
-        }
-    }
-
-    public function getBreed() {
-        return $this->breed;
-    }
-
-    public function speak() {
-        return "Woof!";
-    }
-}
-
-$dog = new Dog("Buddy", "Golden Retriever");
-echo $dog->getName() . " says " . $dog->speak() . "\n"; // Buddy says Woof!
-echo "Breed: " . $dog->getBreed() . "\n"; // Breed: Golden Retriever
-
-// Trying to change the name directly will not work
-//$dog->name = "Max"; // Error
-$dog->setName("Max");
-echo $dog->getName() . " says " . $dog->speak() . "\n"; // Max says Woof!
-```
-
-### Comparaison avec et sans encapsulation
-
-1. Sans encapsulation :
-    - Les propriétés de la classe sont accessibles directement, ce qui peut mener à des modifications involontaires ou
-      incorrectes des données internes.
-    - Le code est moins sécurisé et moins maintenable.
-
-2. Avec encapsulation :
-    - Les propriétés de la classe sont privées et accessibles uniquement via des méthodes publiques (getter et setter).
-    - Cela permet de contrôler et de valider les modifications des données internes.
-    - Le code est plus sécurisé, maintenable et respecte le principe d'encapsulation de la POO.
-
 ## 3. Les principes S.O.L.I.D.
 
 Les principes SOLID sont un ensemble de cinq principes de conception orientée objet qui visent à rendre le code plus
@@ -458,3 +458,135 @@ compréhensible, flexible et maintenable. Voici une explication détaillée de c
 - **Exemple :** Si une classe Service dépend d'une classe Repository, il est préférable de créer une interface
   IRepository que Service utilisera. Ainsi, Service dépend de l'abstraction IRepository, et vous pouvez facilement
   changer l'implémentation concrète de Repository sans modifier Service.
+
+## 4. La Loi de demeter
+
+La loi de Déméter, également appelée **principe du moindre couplage**, est une règle de conception en programmation
+orientée objet (POO) visant à réduire les dépendances entre les objets d'un système. Elle stipule qu'un objet ne doit
+interagir qu'avec les objets qui lui sont "proches" et éviter de "parcourir des chaînes" de dépendances.
+
+### Principes clés :
+
+- Un objet doit uniquement appeler des méthodes de :
+    - Lui-même
+    - Ses attributs directs
+    - Les objets créés localement (dans une méthode)
+    - Les objets passés comme paramètres
+    - Les objets retournés par ses propres méthodes
+- Un objet ne doit pas :
+    - Appeler des méthodes sur un objet retourné par une autre méthode (pas de "train de méthodes")
+    - Dépendre de la structure interne d'autres objets
+
+### Exemple non conforme à la loi de Déméter :
+
+```php
+$rue = $client->getProfil()->getAdresse()->getRue();
+```
+
+Dans cet exemple, l'objet `$client` accède à la méthode `getProfil()`, qui renvoie un objet. Ensuite, il appelle la
+méthode `getAdresse()` sur cet objet, qui renvoie un autre objet. Enfin, il appelle la méthode `getRue()` sur cet objet.
+Cela crée une chaîne de dépendances entre les objets, ce qui rend le code fragile et difficile à maintenir.
+
+### Exemple conforme à la loi de Déméter :
+
+```php
+$rue = $client->getRue();
+```
+
+Dans cet exemple, l'objet `$client` a une méthode `getRue()` qui renvoie directement la rue de l'adresse du client. Cela
+respecte la loi de Déméter en évitant les chaînes de dépendances entre les objets.
+
+## 4. Le principe d'Hollywood
+
+Le principe d'Hollywood en programmation orientée objet (POO) se résume par la phrase : "Ne nous appelez pas, nous vous
+appellerons."
+
+Ce principe vise à inverser le contrôle du flux d'exécution. Plutôt que de laisser les classes "basses" ou spécifiques
+diriger les interactions, ce sont les classes "hautes" ou générales (souvent des frameworks ou des gestionnaires) qui
+contrôlent le flux en appelant les classes spécifiques.
+
+### Principes clés :
+
+- Inversion du contrôle :
+    - Les objets ne décident pas eux-mêmes quand et comment leur logique sera utilisée. Ils s'enregistrent auprès d'une
+      entité supérieure qui les appelle au moment opportun.
+- Encapsulation des responsabilités :
+    - Le principe favorise une architecture où les modules de haut niveau dirigent les interactions avec les modules de
+      bas niveau.
+
+### Exemple sans le principe d'Hollywood :
+
+```php
+class RegistrationService
+{
+    public function register(User $user): void
+    {
+        // Logique d'inscription (sauvegarde en base de données)
+        echo "Utilisateur enregistré : " . $user->getEmail() . "\n";
+
+        // Envoi d'un email de bienvenue
+        $this->sendWelcomeEmail($user);
+
+        // Ajout à la liste marketing
+        $this->addToMarketingList($user);
+    }
+
+    private function sendWelcomeEmail(User $user): void
+    {
+        echo "Email de bienvenue envoyé à : " . $user->getEmail() . "\n";
+    }
+
+    private function addToMarketingList(User $user): void
+    {
+        echo "Utilisateur ajouté à la liste marketing : " . $user->getEmail() . "\n";
+    }
+}
+```
+
+Dans cet exemple, la classe `RegistrationService` est responsable de l'ensemble du processus d'inscription, y compris
+l'envoi d'un email de bienvenue et l'ajout à la liste marketing. Cela crée une forte dépendance entre
+`RegistrationService` et les classes `EmailService` et `MarketingService`. Si l'une de ces classes change,
+`RegistrationService` devra également être modifié.
+
+### Exemple avec le principe d'Hollywood :
+
+```php
+// Gestion de l'inscription
+class RegistrationService
+{
+    public function __construct(private EventDispatcher $dispatcher) {}
+
+    public function register(User $user): void
+    {
+        // Logique d'inscription (sauvegarde en base de données)
+        echo "Utilisateur enregistré : " . $user->getEmail() . "\n";
+
+        // Déclenchement de l'événement
+        $this->dispatcher->dispatch(new UserRegisteredEvent($user));
+    }
+}
+
+// Listener pour l'email
+class WelcomeEmailListener
+{
+    public function onUserRegistered(UserRegisteredEvent $event): void
+    {
+        echo "Email de bienvenue envoyé à : " . $event->getUser()->getEmail() . "\n";
+    }
+}
+
+// Listener pour le marketing
+class MarketingSubscriber
+{
+    public function onUserRegistered(UserRegisteredEvent $event): void
+    {
+        echo "Utilisateur ajouté à la liste marketing : " . $event->getUser()->getEmail() . "\n";
+    }
+}
+```
+
+Dans cet exemple, la classe `RegistrationService` est responsable de l'inscription des utilisateurs et déclenche un
+événement `UserRegisteredEvent`. Les classes `WelcomeEmailListener` et `MarketingSubscriber` écoutent cet événement et
+réalisent les actions appropriées. Cela permet de découpler les différentes étapes du processus d'inscription et de
+rendre le code plus modulaire et flexible. Si une nouvelle action doit être ajoutée, il suffit de créer un nouveau
+listener sans modifier `RegistrationService`.

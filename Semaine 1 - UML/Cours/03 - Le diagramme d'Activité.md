@@ -110,4 +110,4 @@ en fonction de cette condition.
 
 ### [Plateforme de Gestion d'Événements pour Entreprises](../Exercices/Énoncé/03%20-%20Diagramme%20d'Activité%20-%20Exercice%201.md)
 
-### [Processus de paiement d'un site de vente en ligne](../Exercices/Énoncé/03%20-%20Diagramme%20d'Activité%20-%20Exercice%202.md)
+### [Processus de commande d'un site de vente en ligne](../Exercices/Énoncé/03%20-%20Diagramme%20d'Activité%20-%20Exercice%202.md)

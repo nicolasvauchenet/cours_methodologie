@@ -1,4 +1,4 @@
-# Diagramme d'Activité - Exercice : Processus de paiement d'un site de vente en ligne
+# Diagramme d'Activité - Exercice : Processus de commande d'un site de vente en ligne
 
 ## Contexte :
 Imaginons que nous modélisions le processus de commande dans un système de vente en ligne
