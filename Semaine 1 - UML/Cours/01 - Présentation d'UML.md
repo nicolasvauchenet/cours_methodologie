@@ -142,6 +142,8 @@ logiciels modernes.
 
 ## Les types de diagrammes UML
 
+![01-hierarchy.png](../images/01-hierarchy.png)
+
 Les diagrammes UML sont divisés en deux grandes catégories, chacune ciblant différents aspects de la modélisation des
 systèmes logiciels : les diagrammes comportementaux et les diagrammes structurels. Voici une liste exhaustive de ces
 diagrammes, accompagnée de descriptions détaillées et de leurs utilisations dans le cycle de développement logiciel.
