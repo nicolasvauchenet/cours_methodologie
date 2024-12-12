@@ -94,7 +94,7 @@ doivent guider vos choix dans la modélisation UML.
       vente de billets ou l'accueil des artistes.
     - **Diagramme de classes** (1h30) : Modélisez la structure du système avec les différentes classes : artistes,
       visiteurs, billets, scènes, créneaux horaires.
-    - **Modèle entité-relation** (45 minutes) : Créez une base de données relationnelle qui permettra de stocker les
+    - **Modèle conceptuel des données** (45 minutes) : Créez une base de données relationnelle qui permettra de stocker les
       informations sur les artistes, les billets, les événements, etc.
 
 4. Rapport de présentation des livrables (1 heure)
@@ -125,7 +125,7 @@ manière claire et professionnelle.
       critiques.
     - Diagramme de classes : Décrivez la structure du système, les classes principales, et justifiez les relations entre
       elles.
-    - Modèle entité-relation : Expliquez comment vous avez structuré les données et comment elles sont liées.
+    - Modèle conceptuel des données : Expliquez comment vous avez structuré les données et comment elles sont liées.
 
 3. Conclusion :
 
