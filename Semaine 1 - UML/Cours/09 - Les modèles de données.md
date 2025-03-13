@@ -1,4 +1,4 @@
-# 07. Les modèles de données
+# 09. Les modèles de données
 
 ## Bases de données SQL et NoSQL
 
@@ -6,7 +6,7 @@
 
 ## 07a. Modèle Hiérarchique
 
-![07a-example.png](../images/07a-example.png)
+![09a-example.png](../images/09a-example.png)
 
 ### Présentation
 
@@ -32,9 +32,9 @@ chemin d'accès à chaque noeud est unique.
 Les symboles utilisés dans le modèle hiérarchique incluent principalement les noeuds et les liens qui les connectent.
 Chaque noeud représente un enregistrement ou un objet, et les liens représentent les relations de parenté à enfant.
 
-## 07b. Modèle Relationnel
+## 09b. Modèle Relationnel
 
-![07b-example.png](../images/07b-example.png)
+![09b-example.png](../images/09b-example.png)
 
 ### Présentation
 
@@ -59,9 +59,9 @@ et étrangères.
 Les symboles principaux incluent les rectangles représentant les tables, et les lignes qui relient ces tables pour
 indiquer les relations. Les clés primaires et étrangères sont souvent mises en évidence dans les schémas.
 
-## 07c. Modèle Réseau
+## 09c. Modèle Réseau
 
-![07c-example.png](../images/07c-example.png)
+![09c-example.png](../images/09c-example.png)
 
 ### Présentation
 
@@ -81,9 +81,9 @@ sociaux.
 Comme pour le modèle hiérarchique, les symboles comprennent des noeuds et des connexions, mais avec la possibilité de
 multiples connexions entrantes pour chaque noeud, reflétant la structure de réseau.
 
-## 07d. Modèle Document
+## 09d. Modèle Document
 
-![07d-example.png](../images/07d-example.png)
+![09d-example.png](../images/09d-example.png)
 
 ### Présentation
 
@@ -102,9 +102,9 @@ les applications nécessitant une évolution rapide et des structures de donnée
 Les documents sont souvent représentés par des icônes ressemblant à des documents ou des fichiers, avec des liaisons
 entre eux pour montrer les relations imbriquées ou les références.
 
-## 07e. Modèle Entité / Association
+## 09e. Modèle Entité / Association
 
-![07e-example.png](../images/07e-example.png)
+![09e-example.png](../images/09e-example.png)
 
 ## Présentation
 
@@ -121,9 +121,9 @@ labels pour décrire la nature de la relation. Les attributs peuvent être list�
 Ce modèle utilise des bulles pour représenter les associations entre entités. Les cardinalités sont souvent notées sous
 la forme "1,n".
 
-## 07f. Modèle Entité / Relation
+## 09f. Modèle Entité / Relation
 
-![07f-example2.png](../images/07f-example.png)
+![09f-example2.png](../images/09f-example.png)
 
 ## Présentation
 
@@ -135,7 +135,7 @@ la forme "1,n".
 
 ### Symboles
 
-![07f-symbols.png](../images/07f-symbols.png)
+![09f-symbols.png](../images/09f-symbols.png)
 
 Le modèle ER utilise des traits verticaux, des pattes d'oie, et des ronds pour indiquer les cardinalités des relations
 entre les entités.
@@ -144,7 +144,7 @@ entre les entités.
 
 ### 07g. Modèle Clé-valeur
 
-![07g-example.png](../images/07g-example.png)
+![09g-example.png](../images/09g-example.png)
 
 Une base de données clé-valeur est un type de base de données NoSQL où chaque donnée est stockée sous la forme d'une
 paire clé-valeur. Ce modèle est extrêmement simple mais très puissant pour des opérations rapides de lecture/écriture.
@@ -176,7 +176,7 @@ paire clé-valeur. Ce modèle est extrêmement simple mais très puissant pour d
 
 ### 07h. Modèle en Colonne
 
-![07h-example.png](../images/07h-example.png)
+![09h-example.png](../images/09h-example.png)
 
 Une base de données orientée colonne est un type de base de données NoSQL où les données sont stockées par colonnes
 plutôt que par lignes. Cela permet une lecture rapide et efficace des données lorsque des opérations analytiques sur un
@@ -214,9 +214,9 @@ grand nombre de lignes mais un petit nombre de colonnes sont requises.
 - **Modélisation des Données** : Peut nécessiter une planification minutieuse de la modélisation des données pour
   maximiser les avantages.
 
-### 071. Modèle en Graphe
+### 091. Modèle en Graphe
 
-![07i-example01.png](../images/07i-example01.png)
+![09i-example01.png](../images/09i-example01.png)
 
 Une base de données orientée graphe est conçue pour représenter les relations entre les données sous forme de graphes,
 avec des nœuds (entités), des arêtes (relations) et des propriétés (attributs des nœuds et des arêtes). Cela permet une
@@ -257,7 +257,7 @@ navigation et des requêtes rapides sur des relations complexes.
 
 #### Exemple Pratique avec Cypher (langage de requête pour Neo4j)
 
-![07i-example02.png](../images/07i-example02.png)
+![09i-example02.png](../images/09i-example02.png)
 
 ## Exercices pratiques
 

@@ -61,29 +61,39 @@ Modélisation des états d’un objet au cours de son cycle de vie.
 
 - **Exercice** : Modéliser les changements d'états d'un objet dans un scénario concret.
 
-### 07. Les modèles de données
+### 07. Le diagramme de Composants
 
-#### 07a. Modèle Hiérarchique
+- Modélisation des composants et de leurs relations.
+- **Exercice** : Concevoir un diagramme de composants avec leurs relations.
+
+### 08. Le diagramme de Déploiement
+
+- Modélisation des composants regroupés par nœuds.
+- **Exercice** : Concevoir un diagramme de déploiement.
+
+### 09. Les modèles de données
+
+#### 09a. Modèle Hiérarchique
 
 Structure en arbre des données.
 
-#### 07b. Modèle Relationnel
+#### 09b. Modèle Relationnel
 
 Organisation des données en tables.
 
-#### 07c. Modèle Réseau
+#### 09c. Modèle Réseau
 
 Extension du modèle hiérarchique avec plusieurs parents.
 
-#### 07d. Modèle Document
+#### 09d. Modèle Document
 
 Stockage des données sous forme de documents.
 
-#### 07e. Modèle Entité / Association
+#### 09e. Modèle Entité / Association
 
 Représentation des bases de données relationnelles.
 
-#### 07f. Modèle Entité / Relation
+#### 09f. Modèle Entité / Relation
 
 Structure des bases de données relationnelles.
 
