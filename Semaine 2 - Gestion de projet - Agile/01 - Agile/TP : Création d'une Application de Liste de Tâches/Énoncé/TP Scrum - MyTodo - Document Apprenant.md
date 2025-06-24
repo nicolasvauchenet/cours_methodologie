@@ -22,7 +22,7 @@ L'application doit être simple, intuitive et fonctionner sur les appareils mobi
 
 - Définir les rôles et les compétences nécessaires pour réaliser le MVP.
 - Élaborer le MVP à partir de l'expression des besoins.
-- Cgoisir une méthode de gestion de projet adaptée pour la réalisation du MVP.
+- Choisir une méthode de gestion de projet adaptée pour la réalisation du MVP.
 - Estimer la durée et les étapes de recettage / livraisons pour chaque fonctionnalité du MVP.
 
 ---
