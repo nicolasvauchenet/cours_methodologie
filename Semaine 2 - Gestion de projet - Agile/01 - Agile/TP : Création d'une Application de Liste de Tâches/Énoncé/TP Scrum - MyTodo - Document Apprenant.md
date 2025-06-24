@@ -22,7 +22,8 @@ L'application doit être simple, intuitive et fonctionner sur les appareils mobi
 
 - Définir les rôles et les compétences nécessaires pour réaliser le MVP.
 - Élaborer le MVP à partir de l'expression des besoins.
-- Estimer la durée pour chaque fonctionnalité du MVP.
+- Cgoisir une méthode de gestion de projet adaptée pour la réalisation du MVP.
+- Estimer la durée et les étapes de recettage / livraisons pour chaque fonctionnalité du MVP.
 
 ---
 
@@ -30,13 +31,13 @@ L'application doit être simple, intuitive et fonctionner sur les appareils mobi
 
 ### Évolution des besoins
 
-- [M] L'utilisateur pourra trier sa liste de tâches par nom, par statut ou par date d'échéance.
-- [M] L'utilisateur pourra attribuer une priorité aux tâches qu'il a créées.
-- [M] L'utilisateur pourra trier sa liste de tâches par priorité.
-- [F] L'application proposera des rappels automatiques pour les tâches arrivant à échéance.
-- [F] L'utilisateur pourra partager sa liste de tâches avec d'autres utilisateurs.
-- [M] Plusieurs utilisateurs pourront créer et maintenir une liste de tâches commune.
-- [F] L'application proposera des rapports et des statistiques sur les tâches : durée moyenne, classement des priorités,
+- [] L'utilisateur pourra trier sa liste de tâches par nom, par statut ou par date d'échéance.
+- [] L'utilisateur pourra attribuer une priorité aux tâches qu'il a créées.
+- [] L'utilisateur pourra trier sa liste de tâches par priorité.
+- [] L'application proposera des rappels automatiques pour les tâches arrivant à échéance.
+- [] L'utilisateur pourra partager sa liste de tâches avec d'autres utilisateurs.
+- [] Plusieurs utilisateurs pourront créer et maintenir une liste de tâches commune.
+- [] L'application proposera des rapports et des statistiques sur les tâches : durée moyenne, classement des priorités,
   moyenne priorité / durée, tâches à optimiser, etc.
 
 ### Travail à réaliser
@@ -44,7 +45,7 @@ L'application doit être simple, intuitive et fonctionner sur les appareils mobi
 - Définir les acteurs SCRUM (Scrum Master, Product Owner, Équipe de développement).
 - Rédiger les **User Stories** et les grouper en **Epics**.
 - Planifier et estimer le **Product Backlog**.
-- Mettre en place le tableau **Kanban**.
+- Mettre en place le SCRUM Board  (**Kanban**).
 
 ### Indications
 
@@ -71,13 +72,13 @@ L'application doit être simple, intuitive et fonctionner sur les appareils mobi
 
 ### Travail à réaliser
 
-- Prendre en main le **Sprint Backlog** et le **tableau Kanban**.
+- Prendre en main le **Sprint Backlog** et le **SCRUM Board**.
 - Participer aux **Daily Scrum Meetings** en suivant la méthode SCRUM.
 - Suivre les indicateurs : **Burndown Chart**, **Burnup Chart**, et **Cumulative Flow Diagram**.
 
 ### Indications
 
-- Respectez les limites WIP (Work In Progress) dans le tableau Kanban.
+- Respectez les limites WIP (Work In Progress) dans le SCRUM Board.
 - Utilisez les Daily Scrum Meetings pour ajuster votre travail quotidien.
 
 ---
